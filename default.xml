@@ -411,7 +411,7 @@
   <project name="rktools" path="RKTools" remote="nu3001" />
   <project name="rockdev" path="rockdev" remote="nu3001" />
   <project name="device_rockchip_common" path="device/rockchip/common" remote="nu3001" />
-  <project name="device_rockchip_rk3188" path="device/rockchip/rk3188" remote="nu3001"/>
+  <project name="device_rockchip_rk3188" path="device/rockchip/rk3188" remote="epf"/>
   <project name="device_rockchip_rksdk" path="device/rockchip/rksdk" remote="nu3001" >
     <copyfile dest="buildspec.mk" src="buildspec-rk3188.mk"/>
     <copyfile dest=".classpath" src=".classpath"/>
